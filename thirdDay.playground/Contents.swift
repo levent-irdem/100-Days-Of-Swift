@@ -11,7 +11,7 @@ let difference = firstScore - secondScore
 let product = firstScore * secondScore
 let divided = firstScore / secondScore
 
-let remainder = 13 % secondScore
+let remainder = 13 %  secondScore
 
 // Operator overloading
 

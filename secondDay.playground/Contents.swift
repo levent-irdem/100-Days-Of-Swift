@@ -64,6 +64,7 @@ var numbers2 = Set<Int>()
 
 enum Result {
     case success
+    
     case failure
 }
 
@@ -81,3 +82,31 @@ enum Activity {
 
 let talking = Activity.talking(topic: "football")
 print(talking)
+
+
+
+
+
+enum days {
+    case Pazartesi
+    case Sali
+    case Çarşamba
+    case Perşembe
+    case Cuma
+    case Cumartesi
+    case Pazar
+}
+
+var day = days.Cuma
+switch day {
+case days.Cuma:
+    print("Cuma")
+case days.Cumartesi:
+    print("salı")
+case days.Pazar:
+    print("çrş")
+case days.Pazartesi:
+    print("prş")
+default:
+    print("okey")
+}
