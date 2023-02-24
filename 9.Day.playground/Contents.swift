@@ -50,6 +50,7 @@ struct Country {
         let imperialCountries = ["Liberia", "Myanmar", "USA"]
         if imperialCountries.contains(name) {
             usesImperialMeasurements = true
+            
         } else {
             usesImperialMeasurements = false
         }
