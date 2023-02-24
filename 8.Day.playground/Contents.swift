@@ -201,6 +201,7 @@ fibonacci.sorted() == [1, 2, 3, 5, 8]
 
 var examScores = [100, 95, 92]
 examScores.insert(90,at: 3)
+examScores.insert(20,at: 4)
 
 
 
